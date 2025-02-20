@@ -10,18 +10,18 @@ export default function ContactInfo() {
   const contactInfo: Record<string, { address: string, phone: string, email: string }> = {
     en: {
       address: '123 Main St, New York, NY 10001, USA',
-      phone: '+1 (555) 123-4567',
-      email: 'contact@example.com',
+      phone: '+91 7259574599',
+      email: 'vinflyer@example.com',
     },
     es: {
       address: 'Calle Principal 123, Madrid, 28001, España',
-      phone: '+34 912 345 678',
-      email: 'contacto@example.com',
+      phone: '+91 7259574599',
+      email: 'vinflyer@example.com',
     },
     fr: {
       address: '123 Rue Principale, Paris, 75001, France',
-      phone: '+33 1 23 45 67 89',
-      email: 'contact@example.com',
+      phone: '+91 7259574599',
+      email: 'vinflyer@example.com',
     },
     // Add more regions as needed
   };
