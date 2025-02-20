@@ -1,4 +1,4 @@
-# E-Commerce Platform [Check out ✈]([https://example.com](https://content-management-application.vercel.app/))
+# E-Commerce Platform [Check out ✈](https://content-management-application.vercel.app/)
 
 ## Overview
 
