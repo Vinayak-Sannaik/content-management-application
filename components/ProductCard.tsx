@@ -18,15 +18,15 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-t-lg bg-gray-200">
         <Image
           src={product.image}
-          alt={localizedProduct.name}
+          alt={String(localizedProduct.name)}
           className="h-48 w-full object-cover object-center"
           width={300}
           height={200}
         />
       </div>
       <div className="p-4">
-        <h3 className="text-lg font-medium text-gray-900 dark:text-white">{localizedProduct.name}</h3>
-        <p className="mt-1 text-gray-500 dark:text-gray-400 line-clamp-2">{localizedProduct.description}</p>
+        <h3 className="text-lg font-medium text-gray-900 dark:text-white">{String(localizedProduct.name)}</h3>
+        <p className="mt-1 text-gray-500 dark:text-gray-400 line-clamp-2">{String(localizedProduct.description)}</p>
         <div className="mt-2 flex justify-between items-center">
           <p className="text-lg font-semibold text-gray-900 dark:text-white">{formatCurrency(product.price)}</p>
           <button

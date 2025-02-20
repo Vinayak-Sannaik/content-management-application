@@ -19,7 +19,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
         <div className="bg-gray-200 rounded-lg overflow-hidden">
           <Image
             src={product.image}
-            alt={localizedProduct.name}
+            alt={String(localizedProduct.name)}
             className="w-full h-full object-cover"
             width={600}
             height={400}
@@ -27,14 +27,14 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
         </div>
         <div className="mt-8 lg:mt-0">
           <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            {localizedProduct.name}
+            {String(localizedProduct.name)}
           </h1>
           <div className="mt-3">
             <p className="text-3xl text-gray-900 dark:text-white">{formatCurrency(product.price)}</p>
           </div>
           <div className="mt-6">
             <h2 className="sr-only">{t('productDescription')}</h2>
-            <p className="text-base text-gray-700 dark:text-gray-300">{localizedProduct.description}</p>
+            <p className="text-base text-gray-700 dark:text-gray-300">{String(localizedProduct.description)}</p>
           </div>
           <div className="mt-6">
             <div className="flex items-center">
