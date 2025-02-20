@@ -6,7 +6,6 @@ import ProductCard from './ProductCard';
 export default function RecommendedProducts() {
   const { t } = useTranslation();
   
-  // For demo, just show 3 products as recommendations
   const recommendedProducts = products.slice(0, 3);
   
   return (

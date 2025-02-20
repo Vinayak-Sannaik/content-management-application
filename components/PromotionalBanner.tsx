@@ -3,8 +3,7 @@ import { useLocale } from '../contexts/LocaleContext';
 
 export default function PromotionalBanner() {
   const { locale } = useLocale();
-  
-  // Localized promotional content
+
   const promotions: Record<string, { title: string, content: string }> = {
     en: {
       title: 'Summer Sale!',
@@ -18,13 +17,12 @@ export default function PromotionalBanner() {
       title: 'Soldes d\'Été!',
       content: 'Obtenez 20% de réduction sur tous les produits. Offre à durée limitée!',
     },
-    // Add more languages as needed
   };
   
   const promotion = promotions[locale] || promotions.en;
   
   return (
-    <div className="relative bg-blue-600">
+    <div className="relative bg-blue-800">
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="pr-16 sm:text-center sm:px-16">
           <p className="font-medium text-white">

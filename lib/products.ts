@@ -13,7 +13,8 @@ export const products: Product[] = [
     nameKey: "product1Name",
     descriptionKey: "product1Description",
     price: 99.99,
-    image: "/images/products/product1.jpg",
+    image: "/images/headphone1.jpeg",
+    
     inventory: 25,
   },
   {
@@ -21,7 +22,7 @@ export const products: Product[] = [
     nameKey: "product2Name",
     descriptionKey: "product2Description",
     price: 149.99,
-    image: "/images/products/product2.jpg",
+    image: "/images/smart-watch.jpeg",
     inventory: 15,
   },
   {
@@ -29,10 +30,9 @@ export const products: Product[] = [
     nameKey: "product3Name",
     descriptionKey: "product3Description",
     price: 199.99,
-    image: "/images/products/product3.jpg",
+    image: "/images/smart-speaker.jpeg",
     inventory: 10,
   },
-  // Add more products as needed
 ];
 
 export const productTranslations: Record<

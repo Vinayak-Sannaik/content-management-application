@@ -5,8 +5,6 @@ export function useTranslation() {
 
   const t = (key: string): string => {
     try {
-      // In a real app, you would use a proper i18n library
-      // Here we'll simulate by fetching from a simplified structure
       const translations: Record<string, Record<string, string>> = {
         en: {
           welcome: "Welcome to our store",
@@ -34,7 +32,6 @@ export function useTranslation() {
 
       return translations[locale]?.[key] || translations.en[key] || key;
     } catch (error) {
-      // Fallback to English or the key itself
       console.error(`Translation error for key: ${key}`, error);
       return key;
     }

@@ -6,7 +6,6 @@ export default function Footer() {
   const { t } = useTranslation();
   const { locale } = useLocale();
   
-  // Get localized date
   const date = new Date();
   const formattedDate = new Intl.DateTimeFormat(locale).format(date);
   
@@ -23,13 +22,13 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex justify-center md:justify-end mt-4 md:mt-0">
-            <a href="#" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white mx-2">
+            <a href="https://www.linkedin.com/in/vinayak-sannaik/" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white mx-2">
               Facebook
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white mx-2">
+            <a href="https://www.linkedin.com/in/vinayak-sannaik/" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white mx-2">
               Twitter
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white mx-2">
+            <a href="https://www.linkedin.com/in/vinayak-sannaik/" className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white mx-2">
               Instagram
             </a>
           </div>
