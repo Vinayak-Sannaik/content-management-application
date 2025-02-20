@@ -20,13 +20,13 @@ export default function Header() {
           </div>
           <nav className="hidden md:flex space-x-4">
             <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-              Home
+            {t('home')}
             </Link>
             <Link href="#about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-              About
+            {t('about')}
             </Link>
             <Link href="#contact" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-              Contact
+            {t('contact')}
             </Link>
           </nav>
           
@@ -40,32 +40,4 @@ export default function Header() {
       </div>
     </header>
   );
-  //   <header className="bg-white shadow dark:bg-gray-800 dark:border-gray-700">
-  //     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-  //       <div className="flex justify-between items-center py-4">
-  //         <div className="flex items-center">
-  //           <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white">
-  //             E-COM
-  //           </Link>
-  //         </div>
-  //         <nav className="hidden md:flex space-x-4">
-  //           <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-  //             {t('home')}
-  //           </Link>
-  //           <Link href="#about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-  //             {t('about')}
-  //           </Link>
-  //           <Link href="#contact" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-  //             {t('contact')}
-  //           </Link>
-  //         </nav>
-  //         <div className="flex items-center space-x-4">
-  //           <LanguageSwitcher />
-  //           <CurrencySwitcher />
-  //           <ThemeSwitcher />
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </header>
-  // );
 }
