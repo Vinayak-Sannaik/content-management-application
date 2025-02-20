@@ -1,4 +1,7 @@
 # E-Commerce Platform [Check out ✈](https://content-management-application.vercel.app/)
+![image](https://github.com/user-attachments/assets/9ca4810f-7b85-497f-bfb3-d48d5c621881)
+![image](https://github.com/user-attachments/assets/750304d8-9ec2-4e20-94cb-22182ac5da69)
+
 
 ## Overview
 
