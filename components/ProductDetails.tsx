@@ -23,6 +23,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
             className="w-full h-full object-cover"
             width={600}
             height={400}
+            priority={true}
           />
         </div>
         <div className="mt-8 lg:mt-0">

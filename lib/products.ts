@@ -14,8 +14,8 @@ export const products: Product[] = [
     descriptionKey: "product1Description",
     price: 99.99,
     image: "/images/headphone2.jpeg",
-    
     inventory: 25,
+
   },
   {
     id: 2,

@@ -22,6 +22,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           className="h-48 w-full object-cover object-center"
           width={300}
           height={200}
+          
         />
       </div>
       <div className="p-4">
