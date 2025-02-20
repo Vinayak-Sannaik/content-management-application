@@ -1,3 +1,34 @@
+# E-Commerce Platform [Check out ✈](https://content-management-application.vercel.app/)
+
+## Overview
+
+This is a modern e-commerce platform built using Next.js with TypeScript, Tailwind CSS, and Context API for state management. The application includes features like localization, currency switching, and theme toggling.
+
+# Features
+
+- Dark/Light Mode Toggle
+
+- Multi-language Support
+
+- Currency Switching
+
+- Product Listing with Images
+
+- Responsive Header with Adaptive Layout
+
+### Tech Stack
+
+- Next.js (React Framework)
+
+- TypeScript (Static Typing)
+
+- Tailwind CSS (Utility-first Styling)
+
+- Context API (State Management)
+
+- i18next (Internationalization)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
