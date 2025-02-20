@@ -36,8 +36,8 @@ export const products: Product[] = [
 ];
 
 export const productTranslations: Record<
-  string,
-  Record<string, Record<string, string>>
+  string, // Language codes (e.g., "en", "es", "fr")
+  Record<string, string> // Product keys (e.g., "product1Name", "product1Description") mapped to translated strings
 > = {
   en: {
     product1Name: "Premium Headphones",
@@ -72,7 +72,6 @@ export const productTranslations: Record<
     product3Description:
       "Haut-parleur portable avec un son riche et une autonomie de 24 heures.",
   },
-  // Add more languages as needed
 };
 
 export function getLocalizedProduct(product: Product, locale: string) {
